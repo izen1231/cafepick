@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18.3dp"
+        android:layout_marginEnd="18.7dp"
+        android:layout_marginTop="11dp"
+        android:bottomRightRadius="26.7dp"
+        android:bottomLeftRadius="26.7dp"
+        android:topLeftRadius="26.7dp"
+        android:topRightRadius="26.7dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#bcaea8"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageIcon"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/round_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/imageIcon"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/writeTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="카페이름" />
+
+                    <TextView
+                        android:id="@+id/dateTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="위치"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_below="@+id/imageIcon">
+                    <TextView
+                        android:id="@+id/contentTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="카페소개"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18.3dp"
+        android:layout_marginEnd="18.7dp"
+        android:layout_marginTop="11dp"
+        android:bottomRightRadius="26.7dp"
+        android:bottomLeftRadius="26.7dp"
+        android:topLeftRadius="26.7dp"
+        android:topRightRadius="26.7dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:id="@+id/firstLin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#bcaea8"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageIcon3"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/family" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/imageIcon3"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/writeTv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Family Cafe" />
+
+                    <TextView
+                        android:id="@+id/dateTv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="운영시간: 00:00am~22:00pm"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_below="@+id/imageIcon3">
+                    <TextView
+                        android:id="@+id/contentTv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가족들과 함깨 즐길 수 있는 발랄한 분위기의 카페"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18.3dp"
+        android:layout_marginEnd="18.7dp"
+        android:layout_marginTop="11dp"
+        android:bottomRightRadius="26.7dp"
+        android:bottomLeftRadius="26.7dp"
+        android:topLeftRadius="26.7dp"
+        android:topRightRadius="26.7dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:id="@+id/firstLin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#bcaea8"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageIcon2"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/date" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/imageIcon2"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/writeTv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="물가에 카페" />
+
+                    <TextView
+                        android:id="@+id/dateTv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="운영시간: 00:00am~23:00pm"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_below="@+id/imageIcon2">
+                    <TextView
+                        android:id="@+id/contentTv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="데이트 하기 딱 좋은  카페"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18.3dp"
+        android:layout_marginEnd="18.7dp"
+        android:layout_marginTop="11dp"
+        android:bottomRightRadius="26.7dp"
+        android:bottomLeftRadius="26.7dp"
+        android:topLeftRadius="26.7dp"
+        android:topRightRadius="26.7dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:id="@+id/firstLin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#bcaea8"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageIcon1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/up" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/imageIcon1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/writeTv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="미팅" />
+
+                    <TextView
+                        android:id="@+id/dateTv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="운영시간: 24시간"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_below="@+id/imageIcon1">
+                    <TextView
+                        android:id="@+id/contentTv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="업무하기 좋은 조용한 카페"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

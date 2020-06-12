@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buyTicketTerm">
+        <item>캬라멜 마끼야또</item>
+        <item>아메리카노 (아이스)</item>
+        <item>노브랜드 무농약 현미백미 드링크</item>
+        <item>레모네이드</item>
+        <item>자몽에이드</item>
+    </string-array>
+    <string-array name="buyTicketPay">
+        <item>신용카드</item>
+        <item>PAYCO</item>
+        <item>kakaopay</item>
+        <item>휴대폰</item>
+    </string-array>
+    <string-array name="buyCouponPay">
+    <item>1000원 할인</item>
+    <item>2000원 할인</item>
+    <item>사이즈업</item>
+    <item>라때아트</item>
+</string-array>
+    <string-array name="buymiPay">
+        <item>1000MZ</item>
+        <item>2000MZ</item>
+        <item>3000MZ</item>
+        <item>4000MZ</item>
+        <item>5000MZ</item>
+    </string-array>
+    <string-array name="cafeSearch">
+        <item>분위기</item>
+        <item>나이때별 핫이슈</item>
+        <item>데이트 코스</item>
+        <item>포토존</item>
+        <item>규모</item>
+        <item>키즈존</item>
+        <item>노키즈존</item>
+        <item>음료 종류</item>
+        <item>가격대별</item>
+        <item>마니악</item>
+        <item>스터디</item>
+    </string-array>
+</resources>
